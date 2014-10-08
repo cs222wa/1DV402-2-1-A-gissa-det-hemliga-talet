@@ -68,12 +68,12 @@ namespace _1DV402.S2.L1A
             }
             if (number < _number)
             {
-                Console.WriteLine("Det hemliga taler är större än {0}. Du har {1} gissning(ar) kvar.", number, MaxNumberOfGuesses - _count);
+                Console.WriteLine("Det hemliga talet är större än {0}. Du har {1} gissning(ar) kvar.", number, MaxNumberOfGuesses - _count);
                 return false;
             }
             if (number > _number)
             {
-                Console.WriteLine("Det hemliga taler är mindre än {0}. Du har {1} gissning(ar) kvar.", number, MaxNumberOfGuesses - _count);
+                Console.WriteLine("Det hemliga talet är mindre än {0}. Du har {1} gissning(ar) kvar.", number, MaxNumberOfGuesses - _count);
                 return false;
             }
             if (number == _number)
